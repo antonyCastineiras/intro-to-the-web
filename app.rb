@@ -14,5 +14,6 @@ get '/third' do
 end
 
 get '/cat' do
+	@name = ["Oscar","Amigo","Viking"].sample
 	erb(:index)
 end
